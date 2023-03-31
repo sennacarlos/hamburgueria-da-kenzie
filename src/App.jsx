@@ -73,7 +73,7 @@ function App() {
       <main className="container">
         <div className="container__desktop">
           <div className="container__left">
-            <ProductsList allProducts={filteredProduct} addProductToCart={addProductToCart} />
+            <ProductsList allProducts={filteredProduct} addProductToCart={addProductToCart} search={search} />
           </div>
           <div className="container__right">
             <CartProducts cartProducts={cartProducts} totalCart={totalCart} clearCart={clearCart}

@@ -96,6 +96,17 @@ export const GlobalStyle = createGlobalStyle`
         
     }
 
+    .search__result {
+        font-size: var(--heading2);
+        color: var(--gray-100);
+
+        margin-bottom: 30px;
+
+        span {
+            color: var(--gray-50);
+        }
+    }
+
     @media (min-width: 1024px) {
         .container {
             max-width: 1200px;
