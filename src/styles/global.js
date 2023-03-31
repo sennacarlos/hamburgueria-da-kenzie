@@ -100,7 +100,7 @@ export const GlobalStyle = createGlobalStyle`
         font-size: var(--heading2);
         color: var(--gray-100);
 
-        margin-bottom: 30px;
+        margin: 10px 0px 30px 17px;
 
         span {
             color: var(--gray-50);
@@ -128,6 +128,10 @@ export const GlobalStyle = createGlobalStyle`
         .container__right {
             width: 360px;
             padding: 0;
+        }
+
+        .search__result {
+            margin: 10px 0 30px 0
         }
     }
 
